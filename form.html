@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+    <link rel="stylesheet" href="./css/estilosVidaNatural.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header1" id="inicio">
+        <img class="hamburguer" src="./img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="./index.html">Volver</a>
+               
+        </nav>
+        <div class="TForm">
+            <h1 class="titulo">Grupo Vida Natural</h1>
+        </div>
+        <div class="line"></div>
+        <div class="form">  
+            <form>
+                <div class="form">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" class="form" id="nombre" placeholder="Guillermo">
+                </div>
+                <div class="form">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form" id="marin" placeholder="Marin">
+                  </div>
+                  <div class="form">
+                    <label for="num">Número de celular</label>
+                    <input type="text" class="form" id="num" placeholder="02616878954">
+                  </div>
+                  <div class="form">
+                    <label for="email">Email</label>
+                    <input type="email" class="form" id="email" placeholder="name@example.com">
+                  </div>
+                
+                <div class="form">
+                  <label for="consulta">Consulta</label>
+                  <textarea class="text" id="consulta" rows="3"></textarea>
+                </div>
+                <button onclick="Mybuttom()" type="submit" class="form">Enviar</button>
+                <script>
+                function Mybuttom(){
+                alert("Nos pondremos en contacto contigo a la brevedad")
+                }
+                </script> 
+              </form>
+        </div>
+    </header>
+    
+</body>
+<script src="./js/menu.js"></script>
+
+</html>
